@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import AppChapter2 from './chapter-2/AppChapter2'; // Chapter 2 참고.
+import AppChapter3 from './chapter-3/AppChapter3';
 
 ReactDOM.render(
     <React.StrictMode>
-        <App />
+        {/*<AppChapter2/>*/}
+        <AppChapter3/>
     </React.StrictMode>,
     document.getElementById('root')
 );
